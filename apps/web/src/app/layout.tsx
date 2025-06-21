@@ -6,8 +6,9 @@ import ConvexClientProvider from "./ConvexClientProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Notes App",
-  description: "This is an app to take notes.",
+  title: "Blue Phoenix Stem Cell Clinic",
+  description:
+    "Stem cell therapy in Medellín, Colombia with a secure patient portal.",
 };
 
 export default function RootLayout({
