@@ -16,6 +16,7 @@ import type {
 import type * as notes from "../notes.js";
 import type * as openai from "../openai.js";
 import type * as utils from "../utils.js";
+import type * as permissions from "../permissions.js";
 
 /**
  * A utility for referencing Convex functions in your app's API.
@@ -29,6 +30,7 @@ declare const fullApi: ApiFromModules<{
   notes: typeof notes;
   openai: typeof openai;
   utils: typeof utils;
+  permissions: typeof permissions;
 }>;
 export declare const api: FilterApi<
   typeof fullApi,
