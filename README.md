@@ -93,6 +93,9 @@ cd ../../packages/backend && npx convex deploy --cmd 'cd ../../apps/web && turbo
 ```
 
 When deploying on Vercel, set the project root to `apps/web` and use the build command above.
+Vercel only exposes environment variables listed in `turbo.json` to your tasks, so
+be sure to include `NEXT_PUBLIC_CONVEX_URL`, `CONVEX_DEPLOY_KEY`, and
+`CLERK_SECRET_KEY` in the `env` array of your build task.
 
 ## What's inside?
 
