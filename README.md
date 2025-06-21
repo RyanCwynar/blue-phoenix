@@ -89,10 +89,10 @@ If you'd rather see all of the lod gs in one place, delete the
 In order to both deploy the frontend and Convex, run this as the build command from the apps/web directory:
 
 ```sh
-cd ../../packages/backend && npx convex deploy --cmd 'cd ../../apps/app && turbo run build' --cmd-url-env-var-name NEXT_PUBLIC_CONVEX_URL
+cd ../../packages/backend && npx convex deploy --cmd 'cd ../../apps/web && turbo run build' --cmd-url-env-var-name NEXT_PUBLIC_CONVEX_URL
 ```
 
-There is a vercel.json file in the apps/web directory with this configuration for Vercel.
+When deploying on Vercel, set the project root to `apps/web` and use the build command above.
 
 ## What's inside?
 
