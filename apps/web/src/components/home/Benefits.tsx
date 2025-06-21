@@ -2,26 +2,24 @@ import Image from "next/image";
 
 const benefits = [
   {
-    title: "Effortless Note-Taking",
-    description: "Capture thoughts effortlessly with our intuitive interface",
+    title: "Personalized Treatments",
+    description: "Tailored stem cell therapies from our expert team",
     image: "/images/goodNews.png",
   },
   {
-    title: "Seamless Sync",
+    title: "Secure Portal Access",
     description:
-      "Access your notes anytime, anywhere, with seamless cloud synchronization.",
+      "Manage appointments and medical records online with confidence.",
     image: "/images/cloudSync.png",
   },
   {
-    title: "Enhanced Productivity",
-    description:
-      "Let AI handle organization, so you can focus on what matters most.",
+    title: "Cutting-Edge Research",
+    description: "Benefit from the latest advances in regenerative medicine.",
     image: "/images/googleCalander.png",
   },
   {
-    title: "AI-Powered Insights",
-    description:
-      "Gain valuable insights with smart analytics based on your note patterns.",
+    title: "International Support",
+    description: "Comprehensive care for patients visiting Medellín.",
     image: "/images/bot.png",
   },
 ];
@@ -41,7 +39,7 @@ const Benefits = () => {
           Benefits
         </p>
         <h3 className=" text-black text-3xl sm:text-[57px] not-italic font-medium leading-[90.3%] tracking-[-1.425px] font-montserrat text-center pb-[46px] sm:pb-[87px]">
-          Why Choose UseNotes
+          Why Choose Blue Phoenix
         </h3>
 
         <div className="relative">

@@ -62,7 +62,7 @@ export default function Header() {
                         type="button"
                         className=" text-white text-center text-xl not-italic font-normal leading-[normal] font-montserrat px-[22px] py-[11px] button"
                       >
-                        See your Notes
+                        Patient Portal
                       </button>
                     </Link>
                     <UserNav
@@ -83,7 +83,7 @@ export default function Header() {
                       href="/notes"
                       className=" text-white text-center text-xl not-italic font-normal leading-[normal] font-montserrat px-[22px] py-[11px] button"
                     >
-                      Get Started
+                      Access Portal
                     </Link>
                   </div>
                 )}
@@ -127,7 +127,7 @@ export default function Header() {
                   href="/notes"
                   className=" text-white text-center text-xl not-italic font-normal leading-[normal] font-montserrat px-5 py-1.5 button"
                 >
-                  Get Started
+                  Access Portal
                 </Link>
               </div>
             </div>

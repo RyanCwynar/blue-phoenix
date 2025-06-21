@@ -5,7 +5,7 @@ const TestimonialsData = [
   {
     rating: 5,
     review:
-      "Great note-taking application! The AI features make note-taking a breeze",
+      "Blue Phoenix made my recovery smooth and the portal kept me up to date.",
     name: "Ryan Lowry",
     designation: "Engineer & Author",
     profile: "/images/profile.png",
@@ -14,7 +14,7 @@ const TestimonialsData = [
   {
     rating: 5,
     review:
-      "Really like the clean design of UseNotes. The AI-driven search is impressively accurate, adding a personal dimension to my notes. Fast and very easy to use.",
+      "The team was so helpful and the portal kept all my appointments organized.",
     name: "John Collins",
     designation: "Engineer & Author",
     profile: "/images/profile.png",
@@ -22,7 +22,8 @@ const TestimonialsData = [
   },
   {
     rating: 5,
-    review: "Simply brilliant! UseNotes has elevated my productivity.",
+    review:
+      "Traveling to Medellín for treatment was worth it; amazing results.",
     name: "Moe Partuj",
     designation: "Student",
     profile: "/images/Moe-Partuj.jpeg",
