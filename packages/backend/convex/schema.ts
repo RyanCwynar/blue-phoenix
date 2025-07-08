@@ -14,4 +14,21 @@ export default defineSchema({
   })
     .index("by_user_permission", ["userId", "permission"])
     .index("by_user", ["userId"]),
+  tests: defineTable({
+    patientId: v.string(),
+    testName: v.string(),
+    result: v.string(),
+  }).index("by_patient", ["patientId"]),
+  analysis: defineTable({
+    patientId: v.string(),
+    doctorId: v.string(),
+    content: v.string(),
+  }).index("by_patient", ["patientId"]),
+  doctorPatients: defineTable({
+    patientId: v.string(),
+    doctorId: v.string(),
+  })
+    .index("by_patient_doctor", ["patientId", "doctorId"])
+    .index("by_doctor", ["doctorId"])
+    .index("by_patient", ["patientId"]),
 });

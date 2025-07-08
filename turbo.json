@@ -6,11 +6,7 @@
     "build": {
       "outputs": ["dist/**", ".next/**", "!.next/cache/**"],
       "dependsOn": ["^build"],
-      "env": [
-        "NEXT_PUBLIC_CONVEX_URL",
-        "CONVEX_DEPLOY_KEY",
-        "CLERK_SECRET_KEY"
-      ]
+      "env": ["NEXT_PUBLIC_CONVEX_URL", "CONVEX_DEPLOY_KEY", "CLERK_SECRET_KEY"]
     },
     "dev": {
       "cache": false,
